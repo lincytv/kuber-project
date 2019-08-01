@@ -1,6 +1,6 @@
 version: '3'
 services:
    webserver:
-       image: nginx
+       image: tomcat
        ports:
-         - "8080:80"
+         - "8080:8080"
