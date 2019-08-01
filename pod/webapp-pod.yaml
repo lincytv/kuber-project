@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend
+  labels:
+    tire: webapp
+spec:
+  containers:
+    - name: fronend_web
+      image: httpd
