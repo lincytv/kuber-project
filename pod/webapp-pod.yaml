@@ -6,5 +6,5 @@ metadata:
     tire: webapp
 spec:
   containers:
-    - name: fronend_web
+    - name: fronendweb
       image: httpd
